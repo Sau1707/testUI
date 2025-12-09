@@ -1,0 +1,74 @@
+.example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  background: radial-gradient(circle at 20% 20%, #f8fafc, #f1f5f9);
+  color: #0f172a;
+  max-width: 640px;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.example:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.example--full {
+  width: 100%;
+}
+
+.example--neutral {
+  border-color: #cbd5e1;
+}
+
+.example--info {
+  border-color: #38bdf8;
+  background: radial-gradient(circle at 20% 20%, #ecfeff, #e0f2fe);
+}
+
+.example--warning {
+  border-color: #f59e0b;
+  background: radial-gradient(circle at 20% 20%, #fff7ed, #ffedd5);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.heading {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.body {
+  margin: 0;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
